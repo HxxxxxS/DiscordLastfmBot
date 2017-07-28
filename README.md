@@ -28,6 +28,7 @@ Then just run the run.bat or `node bot.js` whenever you want to run the bot.
 To exit the bot just use CTRL-C in the Command Prompt where the process is running.  
 
 ### Known Issues
-Bot crashing when streamer mode is on within discord.  
-The bot will not show you as playing the current song on last.fm on your own discord client, however other people will see it. You also need to clear all your custom set games till the point where it is saying no game detected.  
+* Bot crashing when streamer mode is on within discord.  
+* The bot will not show you as playing the current song on last.fm on your own discord client, however other people will see it. You also need to clear all your custom set games till the point where it is saying no game detected.  
 ![From official discord.js discord channel](https://i.imgur.com/VSu1JEd.png)
+* It pings last.fm api VERY often. It will occasionally throw errors in between scrobbles.
